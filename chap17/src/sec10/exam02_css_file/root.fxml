@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml"
+	prefHeight="50" prefWidth="400" alignment="CENTER" spacing="20">
+   <children>
+		<Label id="lblId" text="寃?諛?,?몃湲??/>
+		<Label styleClass="lblClass" text="??諛?,?곌???/>
+		<Label styleClass="lblClass" text="??諛?,?곌???/>
+   </children>
+</HBox>

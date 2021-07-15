@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="verify.exam02.RootController">
+	<center>
+		<TableView fx:id="tableView" prefHeight="200" prefWidth="420" >
+			<columns>
+				<TableColumn prefWidth="100" resizable="false" text="?대?" />
+				<TableColumn prefWidth="100" resizable="false" text="援?? />
+				<TableColumn prefWidth="100" resizable="false" text="??" />
+				<TableColumn prefWidth="100" resizable="false" text="??? />
+			</columns>
+		</TableView>
+	</center>
+	<bottom>
+		<HBox prefHeight="50" alignment="CENTER">
+			<children>
+				<Button fx:id="btnAdd" text="異媛" />
+			</children>
+		</HBox>
+	</bottom>
+</BorderPane>

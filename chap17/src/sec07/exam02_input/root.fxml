@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="sec07.exam02_input.RootController"
+	prefHeight="380" prefWidth="485" >
+   <children>
+      <Label layoutX="22.0" layoutY="36.0" text="?紐? />
+      <TextField fx:id="txtTitle" layoutX="84.0" layoutY="32.0" prefHeight="23.0" prefWidth="375.0" />
+      <Label layoutX="22.0" layoutY="69.0" text="鍮諛踰?? />
+      <PasswordField fx:id="txtPassword" layoutX="86.0" layoutY="65.0" prefHeight="23.0" prefWidth="132.0" />
+      <Label layoutX="22.0" layoutY="104.0" text="怨듦?" />
+		<ComboBox fx:id="comboPublic" layoutX="86.0" layoutY="100.0" prefHeight="23.0" prefWidth="132.0" promptText="????몄" >
+			<items>
+				<FXCollections fx:factory="observableArrayList">
+					<String fx:value="怨듦?"/>
+					<String fx:value="鍮怨듦?"/>
+				</FXCollections>
+			</items>
+		</ComboBox>
+      <Label layoutX="240.0" layoutY="104.0" text="寃?醫猷" />
+      <DatePicker fx:id="dateExit" layoutX="296.0" layoutY="100.0" promptText="?吏瑜?????몄"/>
+      <Label layoutX="22.0" layoutY="135.0" text="?댁? />
+      <TextArea fx:id="txtContent" layoutX="22.0" layoutY="154.0" prefHeight="132.0" prefWidth="440.0"/>
+      <Separator layoutX="13.0" layoutY="320" prefHeight="0.0" prefWidth="457.0" />
+      <Button fx:id="btnReg" layoutX="189.0" layoutY="340" text="?깅?" onAction="#handleBtnRegAction"/>
+      <Button fx:id="btnCancel" layoutX="252.0" layoutY="340" text="痍⑥" onAction="#handleBtnCancelAction"/>
+   </children>
+</AnchorPane>
